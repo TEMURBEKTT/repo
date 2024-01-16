@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+:root {
+  --bg-color: #a259ff;
+  --color: #ffffff;
+  --body-bg: #2b2b2b;
+  --card-bg: #3b3b3b;
+  --card-color: #858584;
+}
+
+.head_part {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pages {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background: var(--body-bg);
+}
+
+.pages {
+  color: var(--color);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+}
+
+.marketplace {
+  cursor: pointer;
+}
+
+.rankings {
+  cursor: pointer;
+}
+
+.connect {
+  cursor: pointer;
+}
